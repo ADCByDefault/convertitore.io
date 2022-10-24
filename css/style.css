@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(20, 20, 50);
+    background-color: whitesmoke;
+}
+
+.eu-flag {
+    max-width: 300px;
+}
+
+.flag {
+    max-width: 150px;
+}
+
+input,
+body {
+    transition-duration: 1.5s;
+    transition-property: background-color, color;
+}
+
+body.dark {
+    color: whitesmoke;
+    background-color: rgb(20, 20, 50);
+}
+
+body.dark input {
+    color: whitesmoke;
+    background-color: rgb(20, 20, 50);
+    color-scheme: dark;
+}
+
+.ico {
+    color: grey;
+}
+
+body.dark .ico {
+    color: gold;
+}
+
+/* Target blank icon */
+a[target="_blank"]:after {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+    margin: 0 3px 0 5px;
+}

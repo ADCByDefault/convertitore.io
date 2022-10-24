@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- BOOTSTRAP LINKS -->
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+			crossorigin="anonymous"
+		/>
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+			crossorigin="anonymous"
+		></script>
+
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+			integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+			crossorigin="anonymous"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+		/>
+
+		<!-- MY LINKS -->
+
+		<link rel="stylesheet" href="css/style.css" />
+
+		<script defer src="script/script.js"></script>
+
+		<title>Convertitore</title>
+	</head>
+	<body>
+		<header
+			class="p-3 d-flex justify-content-center align-items-center text-center"
+		>
+			<h1 class="m-0 flex-grow-1">CONVERTITORE DI VALUTA</h1>
+			<div id="modeIcon" class="ico px-3">
+				<i class="bi bi-moon-fill"></i>
+			</div>
+		</header>
+		<main class="text-center mt-3">
+			<section
+				class="w-100 d-flex flex-column justify-content-center align-items-center gap-3"
+			>
+				<h2>Euro</h2>
+				<img
+					src="img/ue.bmp"
+					alt="EU flag"
+					class="eu-flag w-50 rounded"
+				/>
+				<div>
+					<input
+						class="text-center"
+						type="number"
+						id="euroInput"
+						placeholder="€"
+					/>
+				</div>
+			</section>
+			<section class="mt-3 row row-cols-1 row-cols-sm-3 w-100">
+				<div class="">
+					<h3>USA Dollar</h3>
+					<img
+						class="flag w-50 rounded d-none d-sm-inline"
+						src="img/usa.bmp"
+						alt="USA flag"
+					/>
+					<p id="USAResult">...</p>
+				</div>
+				<div class="">
+					<h3>Pound</h3>
+					<img
+						class="flag w-50 rounded d-none d-sm-inline"
+						src="img/uk.bmp"
+						alt="United Kindom flag"
+					/>
+					<p id="UKResult">...</p>
+				</div>
+				<div class="">
+					<h3>Yen</h3>
+					<img
+						class="flag w-50 rounded d-none d-sm-inline"
+						src="img/jap.bmp"
+						alt="Japanese flag"
+					/>
+					<p id="japResult">...</p>
+				</div>
+			</section>
+		</main>
+		<footer
+			class="text-center pt-5 pb-3 d-flex justify-content-center flex-md-row gap-2"
+		>
+			<p>SWARAN SINGH</p>
+			<p>
+				<a
+					href="https://github.com/ADCByDefault"
+					class="link"
+					rel="noopener"
+					target="_blank"
+					>GITHUB</a
+				>
+			</p>
+		</footer>
+	</body>
+</html>
